@@ -1,0 +1,31 @@
+#ce-footer {
+  background: #000000;
+  color: #fff;
+  height: 400px;
+}
+
+.ce-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-around;
+  &__items {
+    display: flex;
+    justify-content: center;
+  }
+  &__social {
+    align-self: center;
+    img {
+      width: 175px;
+    }
+  }
+}
+
+.menus {
+  font-family: "Gotham Book Font", "Open Sans", arial;
+  text-decoration: none;
+  list-style: none;
+  li {
+    margin: 12px;
+  }
+}

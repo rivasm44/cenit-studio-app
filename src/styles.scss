@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Electro Shackle";
+  src: url("./assets/fonts/electro_shackle/ElectroShackle.otf");
+}
+
+@font-face {
+  font-family: "Gotham Book Font";
+  src: url("./assets/fonts/gotham/GothamBookFont.otf");
+}
+@font-face {
+  font-family: "Avenir Next Font";
+  src: url("./assets/fonts/avenir/AvenirNextLTPro-Regular.otf");
+}
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 16px;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family: "Gotham Book Font", "Open Sans", arial;
+}
+
+.stronger {
+  font-family: "Electro Shackle", "Open Sans", arial;
+}

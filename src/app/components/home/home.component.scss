@@ -1,0 +1,36 @@
+@media (max-width: 575.98px) {
+  #ce-home {
+    width: 100%;
+    height: 485px;
+  }
+  .ce-wrapper {
+    &__img {
+      width: 100%;
+      height: 485px;
+      object-fit: cover;
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      color: white;
+      width: 100%;
+      height: 485px;
+      align-items: center;
+      justify-content: center;
+      p {
+        width: 80%;
+      }
+    }
+  }
+
+  .title {
+    font-family: "Avenir Next Font", "Open Sans", arial;
+    text-align: left;
+    width: 80%;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+}
