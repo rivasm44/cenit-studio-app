@@ -3,17 +3,21 @@
     width: 100%;
     height: 485px;
     background-image: linear-gradient(135deg, #fdeb71 10%, #f8d800 100%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
   .ce-wrapper {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     max-width: 400px;
     gap: 16px;
     height: 200px;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
     &__content {
       width: 120px;
     }
